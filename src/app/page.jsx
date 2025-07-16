@@ -57,7 +57,7 @@ export default function Home() {
             placeholder="Write your text here..."
           />
         </div>
-        <div className="bg-white w-100 h-100 rounded-xl shadow-xl p-5">
+        <div className="bg-white w-100 h-100 rounded-xl shadow-xl p-5 overflow-y-scroll">
           {text === "" ? (
             <h1 className="text-xl">Output will be here</h1>
           ) : (
